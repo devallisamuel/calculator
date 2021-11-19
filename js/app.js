@@ -7,6 +7,7 @@ const divide = document.getElementById('divide');
 const reset = document.getElementById('reset');
 const clear = document.getElementById('clear');
 const sum = document.getElementById('sum');
+const dot = document.getElementById('dot');
 // to do list
 // 1 get input on keys
 // 2 connect button clicks to input
@@ -43,3 +44,4 @@ minus.addEventListener('click', inputNumber);
 mult.addEventListener('click', inputNumber);
 divide.addEventListener('click', inputNumber);
 sum.addEventListener('click', sumNumber);
+dot.addEventListener('click', inputNumber);
